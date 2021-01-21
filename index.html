@@ -104,7 +104,7 @@
                     <h1 class="text-center">About</h1>
                     <h2>Degree</h2>
                     <p>Purdue University Class of 2020, B.S. Computer Science, Philosophy Minor</p>
-                    <h2>Currently Residence</h2>
+                    <h2>Current Residence</h2>
                     <p>Indianapolis, Willing to Relocate</p>
                     <h2>Status</h2>
                     <p>Currently looking for employment in a frontend role</p>
@@ -114,14 +114,23 @@
                 <div class="col-sm-12 col-lg-6">
                     <h1 class="text-center">Technical Skills</h1>
                     <h2>Profecient</h2>
-                    <p>C/C++, Java, Swift, MIPS, Git</p>
+                    <p>C/C++, Java, Swift/Xcode, MIPS Assembly, Git, OOP</p>
 
                     <h2>Familiar</h2>
-                    <p>Python, JS/CSS/HTML, SQL, C#, bash, ARM</p>
+                    <p>bash and utils, Python, JavaScript, CSS, HTML, Bootstrap 4, jQuery, SQL, C#, Unity, ARM</p>
                     
                     <h2>Exposure</h2>
-                    <p2>React, Node.js, R, 6502, 65816, PowerPC</p2>
+                    <p2>JDBC, React, Node.js, Express, R, PL/SQL, x86, 6502, 65816, PowerPC</p2>
                 </div>
+            </div>
+
+            <!-- resume -->
+            <div class="row justify-content-center mt-5">
+                <button class="btn btn-primary">
+                    <a href="JordanMarcellBarkley_resume.pdf">
+                        Download Resume
+                    </a>
+                </button>
             </div>
         </div>
     </section>
@@ -395,10 +404,12 @@
                     <!-- modal body should be react component-->
                     <img src="images/slap.PNG" style="max-width: 50%;"><img>
                     <p>
-                        Developed and designed a digitally streamlined process that allows for customers to submit a water sample 
-                        for testing with less paperwork and eliminating random error such as the paper attached to the sample getting 
-                        wet. This allowed for a more effective data collection method that is built around the customer experience 
-                        while being mutually beneficially for the company itself. This is achieved with Swift and RESTful web services.
+                        I developed an iOS app to submit water sample metadata digitally for more precise data collection 
+                        while also giving the lab time to prepare tests for incoming samples.
+                        The app was integrated with an existing Core LIMS Informatics Database via a RESTful API which 
+                        allows customers to pull all past and future test results regardless if they were submitted with the app or not.
+                        Libraries/technologies used: Material Components for iOS, AlamoFire API, SwiftyJSON, Core LIMS Informatics Database, Location Services, Barcode Scanner
+                        
                     </p>
 
                 </div>
@@ -428,10 +439,10 @@
                     <!-- modal body should be react component-->
                     <img src="images/breader.png" style="max-width: 100%;"><img>
                     <p>
-                        A free Spreeder CX clone. The web application flashes one word at a time from 
-                        a given text which allows users to read upwards of 700 WPM. The app is integrated
-                        Firebase allowing users to save text and text location as well as personalization
-                        settings. It's implemented using pure JavaScript and Bootstrap.
+                        A fully customizable, free Spreeder CX clone with saving. The web application flashes 
+                        one word at a time from a given book making it possible for users to read upwards of 
+                        700 WPM. The application uses Bootstrap 4 and pure JavaScript for the frontend and 
+                        Firebase Authentication/Storage for the backend.
                     </p>
 
                     <a href="https://github.com/jordanbarkley/breader"><p>Breader GitHub</p></a>
@@ -462,16 +473,9 @@
                 <div class="modal-body">
                     <!-- modal body should be react component-->
                     <p>
-                        Weat provides a platform to help connect
-                        friends who share specific tastes by allowing users to provide direct recommendations to their
-                        friends. By using their network of friends, Weat should help users find restaurants they like
-                        more reliably.
-                        
-                        In addition, Weat attempts to answer the question, “where should we eat tonight?” by
-                        examining a group of friends, checking their histories and preferences, and determining
-                        restaurants everyone enjoys and has not visited lately.
-
-                        All data is stored in a mySQL database.
+                        Weat allows users to suggest restaurants to their friends directly and generates suggestions to groups 
+                        of friends using a kNN algorithm based on restaurants liked/disliked, date eaten, cost etc. It uses 
+                        Swift/XIBs for it’s frontend and a mySQL database, Express server, and Facebook authentication for it’s backend
                     </p>
 
                     <a href="https://github.com/cty123/weat"><p>Weat GitHub</p></a>
